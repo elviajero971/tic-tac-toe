@@ -13,7 +13,7 @@ body {
 
 .board {
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   display: grid;
   justify-content: center;
   align-content: center;
@@ -147,4 +147,15 @@ body {
 
 .winning-message.show {
   display:flex;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 5vw;
 }
